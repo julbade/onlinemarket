@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css1/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Online Market</title>
+  </head>
+  <body>
+    <div class="container">
+    <div class="jumbotron">
+      <h1>Online Market</h1>
+      <h4>Shoes for sale</h4>
+         <p>Jordan</p>
+         <img src="img/shoes1.jpeg" id="item1">
+         <p>Nike</p>
+         <img src="img/shoes2.jpeg" id="item2">
+
+      <div id="infos">
+        <form>
+          <div class="shoedetails">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="address">Address</label>
+            <input id="address" class="form-control" type="text">
+          </div>
+          <div class="form-group">
+            <label for="shoes">What are you buying?</label>
+            <input id="shoes" class="form-control" type="text">
+          </div>
+        </div>
+          <button type="submit" id="btn">Submit</button>
+        </form>
+      </div>
+           <p id="receipt">Thankyou <span class="name"></span> for purchasing <span class="shoes"></span>
+            We will deliver it to your address at  <span class="address"></span>
+           </p>
+
+     </div>
+    </div>
+  </body>
+</html>
